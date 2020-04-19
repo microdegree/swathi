@@ -10,7 +10,7 @@ import Navbar from "../publics/Navbar";
 import Contact from "../publics/Contact";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Donors from "../publics/Donors";
+import Adv from "../publics/Adv";
 import UserProf from "../publics/UserProf";
 import Forgotpasswrd from "../Forgotpsswrd";
 import Registration from "./Registration";
@@ -47,12 +47,12 @@ export default class All extends Component {
           <Switch>
             <Route exact path={"/"} component={Home} />
             <Route path={"/Contact"} component={Contact} />
-            {/* <Route path={"/Donors"} component={Donors} /> */}
+            {/* <Route path={"/Adv"} component={Adv} /> */}
             <Route
               exact
-              path={"/Donors"}
+              path={"/Adv"}
               render={(props) => (
-                <Donors
+                <Adv
                   {...props}
                   user={this.state.user}
                   getProducts={this.getProducts}

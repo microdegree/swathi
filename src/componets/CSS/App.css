@@ -178,7 +178,7 @@ legend {
   margin-top: auto;
   margin-bottom: auto;
   width: 400px;
-  background-color: rgba(163, 141, 16, 0.664) !important;
+  background-color: #5f4dee !important;
   color: mintcream;
 }
 #social_icon span {
@@ -207,7 +207,7 @@ legend {
 }
 /* Footer */
 .footers {
-  background: linear-gradient(57deg, #1e4d92, #00c6a7) !important;
+  background: linear-gradient(57deg, #5f4dee, #5f4dee) !important;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;

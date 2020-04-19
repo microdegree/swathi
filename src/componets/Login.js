@@ -38,15 +38,15 @@ class Login extends Component {
     let social = {};
     let signup, login;
     if (type === "user") {
-      social = "#12055c";
+      social = "#fff";
       signup = <a href={`/signup`}>Sign Up</a>;
     } else {
-      social = "#d48b04";
+      social = "#fff";
       signup = <a href={`/fsignup`}>Sign Up</a>;
     }
     if (type === "user") {
       if (username == "") {
-        social = "#12055c";
+        social = "#5f4dee";
         login = (
           <a href={`/`} style={{ textDecoration: "none" }}>
             Login
@@ -57,7 +57,7 @@ class Login extends Component {
       }
     } else {
       if (username == "") {
-        social = "#d48b04";
+        social = "#5f4dee";
         login = (
           <a href={`/vendor/Home`} style={{ textDecoration: "none" }}>
             Login
@@ -121,7 +121,7 @@ class Login extends Component {
                         <button
                           type="submit"
                           value="Login"
-                          className="btn float-right login_btn btn-block "
+                          className="btn float-right login_btn btn-block logbox "
                           style={{
                             backgroundColor: social,
                           }}

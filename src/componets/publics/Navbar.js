@@ -180,12 +180,8 @@ export default class Navbar extends Component {
             <span></span>
           </button>
           <div className="row">
-                        <div className="col-xl-2 col-lg-2 mb-50">
-          <a className="logo " href="/">
-            <img src={logo} alt="" className=""></img>
-            {/* Farm
-            <span className="color-b">Easy</span> */}
-          </a>
+                        <div className="col-xl-5 col-lg-2 mb-50 top2">
+                        <h4 className="main__title"><i className='fa fa-television logt'></i><h3>TV Advertisment Portal</h3></h4>
           <button
             type="button"
             className="btn btn-link nav-search navbar-toggle-box-collapse d-md-none"
@@ -196,7 +192,7 @@ export default class Navbar extends Component {
             <span className="fa fa-search" aria-hidden="true"></span>
           </button>
           </div>
-          <div className="col-xl-10 col-lg-10 mb-50">
+          <div className="col-xl-5 col-lg-5 mb-50">
           <div 
             className="navbar-collapse collapse "
             id="navbarDefault">
@@ -208,13 +204,37 @@ export default class Navbar extends Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="">
-                  Do You Know
+      Details
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/#service">
-                About Us
+              <li className="nav-item ">
+                <a className="nav-link" href="">
+                  Pricing
                 </a>
+              </li> 
+              <li className="nav-item dropdown mr-5">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Video
+                </a>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a className="dropdown-item" href="/Contact">
+                  Artical Details
+                  </a>
+                  <a className="dropdown-item" href="">
+                      Terms conditions
+                  </a>
+                  <a className="dropdown-item" href="">
+                  Privacy Policy
+                  </a>
+                </div>
               </li>
          
              
@@ -227,11 +247,7 @@ export default class Navbar extends Component {
                  Donate
                 </a>
               </li> */}
-               <li className="nav-item ">
-                <a className="nav-link" href="/Contact">
-                  Contact
-                </a>
-              </li> 
+           
            
     <li className="nav-item dropdown mr-5">
                 <a

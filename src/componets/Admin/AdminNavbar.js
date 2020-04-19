@@ -122,8 +122,8 @@ export default class Navbar extends Component {
             <span></span>
             <span></span>
           </button>
-          <a className="logo top1" href="/vendor/Home">
-            <img src={logo} alt="" className=""></img>
+          <a className="logo " href="/vendor/Home">
+          <h4 className="main__title"><i className='fa fa-television logt'></i>TV Advertisment Portal</h4>
             {/* Farm
             <span className="color-b">Easy</span> */}
           </a>
@@ -146,28 +146,18 @@ export default class Navbar extends Component {
                   Home
                 </a>
               </li>
-             
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Donate
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/vendor/addDonors">
-                    Add Donaters
+              <li className="nav-item">
+              <a className="nav-link" href="/vendor/addVideo">
+                    Add
                   </a>
-                  <a className="dropdown-item" href="/vendor/ShowDonors">
-                    Show Donaters
-                  </a>
-                </div>
               </li>
+              <li className="nav-item">
+              <a className="nav-link" href="/vendor/ShowVideo">
+                    Show
+                  </a>
+              </li>
+             
+             
             </ul>
           </div>
 

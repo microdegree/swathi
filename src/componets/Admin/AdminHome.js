@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import logo from "../../assets/logo.png";
-import "../CSS/donor.css";
+import "../CSS/adv.css";
 
 class AdminHome extends Component {
   render() {
@@ -52,152 +52,199 @@ class AdminHome extends Component {
             </div>
           </div>
         </section>
-        <section class="counts section-bg mt-5">
+        <section class="counts section-bg mt-5 ">
         <div className=" container-fluid mt-5" id="product">
-          <h2> List Of Donors</h2>
+   
 
-          <div className="row">
-            <div className="col-lg-3 col-md-3 col-sm-3   animated fadeInUp wow animated">
-              <div className="product-top">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                  className="img1"
-                  alt=""
-                />
+        <div className="container">
+          <section className="contact" id="contact">
+         
+            <div className="row">
+              <div className="col-lg-12 wow fadeInLeft animated">
+              
+                <div className="atop">
+                  <h1>Videos</h1>
+                  <div class="row justify-content-center">
 
-                <div className="overlay">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Quick Shop"
-                    data-toggle="modal"
-                    data-target="#quickModel"
-                  >
-                    <i className="fa fa-eye"></i>
-                  </button>
+                    <div class="col-lg-4 ">
+                                      <div class="cardvideo">
+                                <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                                    <div class="room-thumb">
+                                       
+                                            <div class="video">
+                                              <div class="video__frame">
+                                                <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                              </div>
+                                            </div>
+                                       
+                        
+                                    </div>
+                                    
+                                    </div>
+                            </div>
+                                </div>
+                                <div class="col-lg-4 ">
+                                      <div class="cardvideo">
+                                <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                                    <div class="room-thumb">
+                                       
+                                            <div class="video">
+                                              <div class="video__frame">
+                                                <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                              </div>
+                                            </div>
+                                       
+                        
+                                    </div>
+                                    
+                                    </div>
+                            </div>
+                                </div>
+                                <div class="col-lg-4 ">
+                                      <div class="cardvideo">
+                                <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                                    <div class="room-thumb">
+                                       
+                                            <div class="video">
+                                              <div class="video__frame">
+                                                <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                              </div>
+                                            </div>
+                                       
+                        
+                                    </div>
+                                    
+                                    </div>
+                            </div>
+                                </div>
+                                
+                            </div>
 
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Add to Cart"
-                    data-toggle=""
-                    data-target=""
-                  >
-                    <i className="fa fa-shopping-cart"></i>
-                  </button>
+
+
+                            <div class="row justify-content-center mtop">
+
+<div class="col-lg-4 ">
+                  <div class="cardvideo">
+            <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                <div class="room-thumb">
+                   
+                        <div class="video">
+                          <div class="video__frame">
+                            <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                          </div>
+                        </div>
+                   
+    
                 </div>
-              </div>
-              <div className="product-bottom text-center">
-               
-                <h3>list 1</h3>
-             
-              </div>
+                
+                </div>
+        </div>
             </div>
-            {/*  */}
-            <div className="col-lg-3 col-md-3 col-sm-3   animated fadeInUp wow animated">
-              <div className="product-top">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                  className="img1"
-                  alt=""
-                />
-                <div className="overlay">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Quick Shop"
-                    data-toggle="modal"
-                    data-target="#quickModel"
-                  >
-                    <i className="fa fa-eye"></i>
-                  </button>
-
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Add to Cart"
-                  >
-                    <i className="fa fa-shopping-cart"></i>
-                  </button>
+            <div class="col-lg-4 ">
+                  <div class="cardvideo">
+            <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                <div class="room-thumb">
+                   
+                        <div class="video">
+                          <div class="video__frame">
+                            <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                          </div>
+                        </div>
+                   
+    
                 </div>
-              </div>
-              <div className="product-bottom text-center">
+                
+                </div>
+        </div>
+            </div>
+            <div class="col-lg-4 ">
+                  <div class="cardvideo">
+            <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                <div class="room-thumb">
+                   
+                        <div class="video">
+                          <div class="video__frame">
+                            <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                          </div>
+                        </div>
+                   
+    
+                </div>
+                
+                </div>
+        </div>
+            </div>
             
-                <h3>list 2</h3>
-              
-              </div>
+        </div>
+
+
+
+        <div class="row justify-content-center mtop">
+
+<div class="col-lg-4 ">
+                  <div class="cardvideo">
+            <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                <div class="room-thumb">
+                   
+                        <div class="video">
+                          <div class="video__frame">
+                            <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                          </div>
+                        </div>
+                   
+    
+                </div>
+                
+                </div>
+        </div>
             </div>
-            {/*  */}
-
-            {/*  */}
-            <div className="col-lg-3 col-md-3 col-sm-3  animated fadeInUp wow animated">
-              <div className="product-top">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                  className="img1"
-                  alt=""
-                />
-                <div className="overlay">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Quick Shop"
-                    data-toggle="modal"
-                    data-target="#quickModel"
-                  >
-                    <i className="fa fa-eye"></i>
-                  </button>
-
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Add to Cart"
-                  >
-                    <i className="fa fa-shopping-cart"></i>
-                  </button>
+            <div class="col-lg-4 ">
+                  <div class="cardvideo">
+            <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                <div class="room-thumb">
+                   
+                        <div class="video">
+                          <div class="video__frame">
+                            <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                          </div>
+                        </div>
+                   
+    
+                </div>
+                
+                </div>
+        </div>
+            </div>
+            <div class="col-lg-4 ">
+                  <div class="cardvideo">
+            <div class="single-room text-center" data-aos="fade-up" data-aos-duration="1200">
+                <div class="room-thumb">
+                   
+                        <div class="video">
+                          <div class="video__frame">
+                            <iframe src="https://www.youtube.com/embed/riD0RlWC24g" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                          </div>
+                        </div>
+                   
+    
+                </div>
+                
+                </div>
+        </div>
+            </div>
+            
+        </div>
+                 
                 </div>
               </div>
-              <div className="product-bottom text-center">
               
-                <h3>list 3</h3>
-             
-              </div>
             </div>
-            {/*  */}
-            <div className="col-lg-3 col-md-3 col-sm-3  animated fadeInUp wow animated">
-              <div className="product-top">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                  className="img1"
-                  alt=""
-                />
-                <div className="overlay">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Quick Shop"
-                    data-toggle="modal"
-                    data-target="#quickModel"
-                  >
-                    <i className="fa fa-eye"></i>
-                  </button>
+      
 
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Add to Cart"
-                  >
-                    <i className="fa fa-shopping-cart"></i>
-                  </button>
-                </div>
-              </div>
-              <div className="product-bottom text-center">
-              
-                <h3>list 4</h3>
-           
-              </div>
-            </div>
-          </div>
+          </section>
+        </div>
+    
           <div
             className="modal show product-view"
             id="quickModel"
@@ -223,84 +270,6 @@ class AdminHome extends Component {
         </section>
 
 
-
-
-
-        <div className="container mt-5  ">
-        <div className="">
-          {/* <div className="jumbotron col-md-6 col-sm-5 " id="login-first"></div> */}
-          <div className="" id="login-second">
-            <div class="page-wrapper p-t-50 p-b-50">
-              <div class="wrapper ">
-                <div class="card cardH card-6 ">
-                  <div class="card-heading">
-                    <h2 class="title text-dark ">&nbsp;&nbsp;&nbsp;&nbsp;Request Form</h2>
-                  </div>
-                  <div class="card-body  text-light">
-                    <form method="POST">
-                      <div class="form-row">
-                        <div class="name">Full name</div>
-                        <div class="value">
-                          <input
-                            class="input--style-6"
-                            type="text"
-                            name="full_name"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Email address</div>
-                        <div class="value">
-                          <div class="input-group">
-                            <input
-                              class="input--style-6"
-                              type="email"
-                              name="email"
-                              placeholder="example@email.com"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Password</div>
-                        <div class="value">
-                          <div class="input-group">
-                            <input
-                              class="input--style-6"
-                              type="email"
-                              name="email"
-                              placeholder=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Re-Password</div>
-                        <div class="value">
-                          <div class="input-group">
-                            <input
-                              class="input--style-6"
-                              type="email"
-                              name="email"
-                              placeholder=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </form>
-                  </div>
-                  <div class="card-footer">
-                    <button class="btn btn--radius-2 btn-success" type="submit">
-                      Send Request
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       </Fragment>
     );
   }
